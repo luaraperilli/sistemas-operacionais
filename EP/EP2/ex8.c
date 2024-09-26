@@ -10,7 +10,7 @@
 #include <pthread.h>
 #include <unistd.h>
 
-// Função executada pela thread criada. Demonstra o uso de fork().
+// Função executada pela thread criada. Demonstra o uso de fork()
 void *thread_function(void *arg)
 {
     // Exibe uma mensagem indicando que a thread está executando
